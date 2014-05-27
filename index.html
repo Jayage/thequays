@@ -164,8 +164,12 @@
 
       <!-- FOOTER -->
       <footer>
+	  <div id="fb-root"></div>
+		<div class="fb-like" data-href="https://www.facebook.com/TheQuaysNCI" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p align="center">&copy; 2014 Javin Li</p>
+		
+
       </footer>
 
     </div><!-- /.container -->
@@ -177,5 +181,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=101777619862595&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   </body>
 </html>
