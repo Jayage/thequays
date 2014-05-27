@@ -1,58 +1,99 @@
+
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A website to showcase The Quays, A band from NCI.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="shortcut icon" href="../../assets/ico/favicon.ico">-->
 
-    <title>The Quays Band Page</title>
-	
-	<!--Styles-->
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-  
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <title>The Quays NCI</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/layouts/side-menu.css">
-    <!--<![endif]-->    
 
-</head>
-<body>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
 
-<div id="layout">
-    <!-- Menu toggle -->
-    <a href="#menu" id="menuLink" class="menu-link">
-        <!-- Hamburger icon -->
-        <span></span>
-    </a>
-
-    <div id="menu">
-        <div class="pure-menu pure-menu-open">
-            <a class="pure-menu-heading" href="index.html">The Quays</a>
-
-            <ul>
-                <li><a href="/index.html">Home</a></li>
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">The Quays NCI</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About</a></li>
-
-                <li>
-                    <a href="/members.html">Members</a>
+				
+				
+                <li><a href="/media.html">Media</a></li>
+				
+				 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://www.youtube.com/channel/UCMDJfqfPGu2EnjiMLsWr4lQ">YouTube</a></li>
+                    <li><a href="https://soundcloud.com/thequaysnci">Sound Cloud</a></li>
+                  </ul>
                 </li>
-
-                <li class="menu-item-divided pure-menu-selected"><a href="/media.html">Media</a></li>
-				<li><a href ="/contact.html">Contact</a></li>
-            </ul>
+				
+				
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Members <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Eve O'Connor</a></li>
+                    <li><a href="#">Hugh Hayes</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+
+      </div>
     </div>
 
-    <div id="main">
-        <div class="header">
-            <h1>Band Media</h1>
-            <h2>Here's a selection of tracks that the band has covered.</h2>
-        </div>
-        <div class="content">
-            <h2>Videos</h2>
+
+   
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      
+
+
+      <!-- START THE FEATURETTES -->
+	  
+	  <h2>Videos</h2>
 			<div class="video-container">
 				<iframe width="600" height="400" src="http://www.youtube.com/embed/HSJ9XmqMdo8" frameborder="0" allowfullscreen></iframe>
 			</div> 
@@ -62,28 +103,62 @@
 			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117003080&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 			</div>
 			<hr />
-			
-			
-            <div class="pure-g">
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="pics/group.jpg" alt="Group">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="pics/collage.jpg" alt="Collage">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="pics/quays.jpg" alt="The Quays">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="pics/wall.jpg" alt="wall">
-                </div>
-            </div>
 
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
-    </div>
-</div>
-<script src="js/ui.js"></script>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
 
 
-</body>
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+  </body>
 </html>
